@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Telneting || Pricing Page</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/vuesax.css" />
+    <link rel="stylesheet" href="css/owl.carousel.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.css" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="images/logo.svg" alt="logo" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            id="menu"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarScroll"
+            aria-controls="navbarScroll"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <!-- <span class="navbar-toggler-icon"></span> -->
+            <span class="upperbar"></span>
+            <span class="lowerbar"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="privacy.html">Privacy Policy</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="pricing.html">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="blog.html">Blog</a>
+              </li>
+            </ul>
+
+            <div class="d-flex align-items-center">
+              <div class="mx-auto">
+                <a href="#" class="btn btn-text">Log In</a>
+                <a href="#" class="btn btn-primary">Create free account</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section-pricing-banner">
+        <span>Pricing</span>
+        <h2 class="title">
+          Get your data for as low as NGN235/GB and a HUGE discount on all our
+          products.
+        </h2>
+      </section>
+
+      <section class="section-pricing">
+        <div class="container">
+          <!-- Nav tabs -->
+          <div class="nav-pills-container">
+            <ul
+              class="nav nav-pills justify-content-center"
+              id="myTab"
+              role="tablist"
+            >
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link active"
+                  id="data-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#data"
+                  type="button"
+                  role="tab"
+                  aria-controls="home"
+                  aria-selected="true"
+                >
+                  <img
+                    src="images/icons/wifi-square.svg"
+                    class="svg-img"
+                    alt=""
+                  />
+                  Data Prices
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link"
+                  id="airtime-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#airtime"
+                  type="button"
+                  role="tab"
+                  aria-controls="profile"
+                  aria-selected="false"
+                >
+                  <img src="images/icons/call.svg" class="svg-img" alt="" />
+                  Airtime Prices
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link"
+                  id="cable-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#cable"
+                  type="button"
+                  role="tab"
+                  aria-controls="messages"
+                  aria-selected="false"
+                >
+                  <img
+                    src="images/icons/monitor-mobbile.svg"
+                    class="svg-img"
+                    alt=""
+                  />
+                  Cable TV Prices
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link"
+                  id="elec-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#elec"
+                  type="button"
+                  role="tab"
+                  aria-controls="settings"
+                  aria-selected="false"
+                >
+                  <img src="images/icons/flash.svg" class="svg-img" alt="" />
+                  Electricity token Prices
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link"
+                  id="exam-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#exam"
+                  type="button"
+                  role="tab"
+                  aria-controls="settings"
+                  aria-selected="false"
+                >
+                  <img src="images/icons/award.svg" class="svg-img" alt="" />
+                  Exam PIN Prices
+                </button>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Tab panes -->
+          <div class="tab-content">
+            <div
+              class="tab-pane active"
+              id="data"
+              role="tabpanel"
+              aria-labelledby="data-tab"
+            >
+              <div class="tabs-to-dropdown">
+                <div class="nav-wrapper d-flex align-items-start">
+                  <ul
+                    class="nav nav-pills d-none d-md-flex flex-column"
+                    id="pills-tab"
+                    role="tablist"
+                  >
+                    <li class="nav-item" role="presentation">
+                      <a
+                        class="nav-link active"
+                        id="mtn-tab"
+                        data-toggle="pill"
+                        href="#mtn"
+                        role="tab"
+                        aria-controls="pills-company"
+                        aria-selected="true"
+                        >MTN</a
+                      >
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <a
+                        class="nav-link"
+                        id="mtndata-tab"
+                        data-toggle="pill"
+                        href="#mtndata"
+                        role="tab"
+                        aria-controls="pills-product"
+                        aria-selected="false"
+                        >MTN - Data</a
+                      >
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <a
+                        class="nav-link"
+                        id="airtel-tab"
+                        data-toggle="pill"
+                        href="#airtel"
+                        role="tab"
+                        aria-controls="pills-news"
+                        aria-selected="false"
+                        >Airtel</a
+                      >
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <a
+                        class="nav-link"
+                        id="airteldata-tab"
+                        data-toggle="pill"
+                        href="#airteldata"
+                        role="tab"
+                        aria-controls="pills-contact"
+                        aria-selected="false"
+                        >Airtel - Data</a
+                      >
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <a
+                        class="nav-link"
+                        id="glo-tab"
+                        data-toggle="pill"
+                        href="#glo"
+                        role="tab"
+                        aria-controls="pills-news"
+                        aria-selected="false"
+                        >Glo</a
+                      >
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <a
+                        class="nav-link"
+                        id="glodata-tab"
+                        data-toggle="pill"
+                        href="#glodata"
+                        role="tab"
+                        aria-controls="pills-contact"
+                        aria-selected="false"
+                        >Glo - Data</a
+                      >
+                    </li>
+
+                    <li class="nav-item" role="presentation">
+                      <a
+                        class="nav-link"
+                        id="9mobile-tab"
+                        data-toggle="pill"
+                        href="#9mobile"
+                        role="tab"
+                        aria-controls="pills-news"
+                        aria-selected="false"
+                        >9mobile</a
+                      >
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <a
+                        class="nav-link"
+                        id="etisaaltdata-tab"
+                        data-toggle="pill"
+                        href="#etisalatdata"
+                        role="tab"
+                        aria-controls="pills-contact"
+                        aria-selected="false"
+                        >Etisalat - Data</a
+                      >
+                    </li>
+
+                    <li class="nav-item" role="presentation">
+                      <a
+                        class="nav-link"
+                        id="smile-tab"
+                        data-toggle="pill"
+                        href="#smile"
+                        role="tab"
+                        aria-controls="pills-news"
+                        aria-selected="false"
+                        >Smile direct</a
+                      >
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <a
+                        class="nav-link"
+                        id="spectranet-tab"
+                        data-toggle="pill"
+                        href="#spectranetdata"
+                        role="tab"
+                        aria-controls="pills-contact"
+                        aria-selected="false"
+                        >Spectranet</a
+                      >
+                    </li>
+                  </ul>
+
+                  <div class="tab-content" id="v-pills-tabContent">
+                    <div
+                      class="tab-pane fade show active"
+                      id="mtn"
+                      role="tabpanel"
+                      aria-labelledby="mtn-tab"
+                    >
+                      <div class="container-fluid">
+                        <div class="table-container table-responsive">
+                          <table class="table">
+                            <thead>
+                              <tr>
+                                <th scope="col"></th>
+                                <th scope="col">Starter Price</th>
+                                <th scope="col">Agent Price</th>
+                                <th scope="col">
+                                  Developer (API) Price &nbsp;
+                                </th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <th scope="row">
+                                  MTN 50MB(CORPORATE GIFTING) - 30 DAYS
+                                </th>
+                                <td>&#8358;52</td>
+                                <td>&#8358;50</td>
+                                <td>&#8358;48</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">
+                                  MTN 50MB(CORPORATE GIFTING) - 30 DAYS
+                                </th>
+                                <td>&#8358;52</td>
+                                <td>&#8358;50</td>
+                                <td>&#8358;48</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">
+                                  MTN 50MB(CORPORATE GIFTING) - 30 DAYS
+                                </th>
+                                <td>&#8358;52</td>
+                                <td>&#8358;50</td>
+                                <td>&#8358;48</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">
+                                  MTN 50MB(CORPORATE GIFTING) - 30 DAYS
+                                </th>
+                                <td>&#8358;52</td>
+                                <td>&#8358;50</td>
+                                <td>&#8358;48</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">
+                                  MTN 50MB(CORPORATE GIFTING) - 30 DAYS
+                                </th>
+                                <td>&#8358;52</td>
+                                <td>&#8358;50</td>
+                                <td>&#8358;48</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">
+                                  MTN 50MB(CORPORATE GIFTING) - 30 DAYS
+                                </th>
+                                <td>&#8358;52</td>
+                                <td>&#8358;50</td>
+                                <td>&#8358;48</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">
+                                  MTN 50MB(CORPORATE GIFTING) - 30 DAYS
+                                </th>
+                                <td>&#8358;52</td>
+                                <td>&#8358;50</td>
+                                <td>&#8358;48</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">
+                                  MTN 50MB(CORPORATE GIFTING) - 30 DAYS
+                                </th>
+                                <td>&#8358;52</td>
+                                <td>&#8358;50</td>
+                                <td>&#8358;48</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">
+                                  MTN 50MB(CORPORATE GIFTING) - 30 DAYS
+                                </th>
+                                <td>&#8358;52</td>
+                                <td>&#8358;50</td>
+                                <td>&#8358;48</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">
+                                  MTN 50MB(CORPORATE GIFTING) - 30 DAYS
+                                </th>
+                                <td>&#8358;52</td>
+                                <td>&#8358;50</td>
+                                <td>&#8358;48</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">
+                                  MTN 50MB(CORPORATE GIFTING) - 30 DAYS
+                                </th>
+                                <td>&#8358;52</td>
+                                <td>&#8358;50</td>
+                                <td>&#8358;48</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">
+                                  MTN 50MB(CORPORATE GIFTING) - 30 DAYS
+                                </th>
+                                <td>&#8358;52</td>
+                                <td>&#8358;50</td>
+                                <td>&#8358;48</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">
+                                  MTN 50MB(CORPORATE GIFTING) - 30 DAYS
+                                </th>
+                                <td>&#8358;52</td>
+                                <td>&#8358;50</td>
+                                <td>&#8358;48</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">
+                                  MTN 50MB(CORPORATE GIFTING) - 30 DAYS
+                                </th>
+                                <td>&#8358;52</td>
+                                <td>&#8358;50</td>
+                                <td>&#8358;48</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">
+                                  MTN 50MB(CORPORATE GIFTING) - 30 DAYS
+                                </th>
+                                <td>&#8358;52</td>
+                                <td>&#8358;50</td>
+                                <td>&#8358;48</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">
+                                  MTN 50MB(CORPORATE GIFTING) - 30 DAYS
+                                </th>
+                                <td>&#8358;52</td>
+                                <td>&#8358;50</td>
+                                <td>&#8358;48</td>
+                              </tr>
+                            </tbody>
+                          </table>
+
+                          <div class="mt-100 text-center">
+                            <button class="btn-grey-outline">Load More</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div
+                      class="tab-pane fade"
+                      id="mtndata"
+                      role="tabpanel"
+                      aria-labelledby="mtndata-tab"
+                    >
+                      <div class="container-fluid">
+                        <div class="table-container table-responsive">
+                          <table class="table">
+                            <thead>
+                              <tr>
+                                <th scope="col"></th>
+                                <th scope="col">Starter Price</th>
+                                <th scope="col">Agent Price</th>
+                                <th scope="col">
+                                  Developer (API) Price &nbsp;
+                                </th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <th scope="row">
+                                  MTN-DATA 50MB(CORPORATE GIFTING) - 30 DAYS
+                                </th>
+                                <td>&#8358;52</td>
+                                <td>&#8358;50</td>
+                                <td>&#8358;48</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">
+                                  MTN-DATA 50MB(CORPORATE GIFTING) - 30 DAYS
+                                </th>
+                                <td>&#8358;52</td>
+                                <td>&#8358;50</td>
+                                <td>&#8358;48</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">
+                                  MTN-DATA 50MB(CORPORATE GIFTING) - 30 DAYS
+                                </th>
+                                <td>&#8358;52</td>
+                                <td>&#8358;50</td>
+                                <td>&#8358;48</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">
+                                  MTN-DATA 50MB(CORPORATE GIFTING) - 30 DAYS
+                                </th>
+                                <td>&#8358;52</td>
+                                <td>&#8358;50</td>
+                                <td>&#8358;48</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">
+                                  MTN-DATA 50MB(CORPORATE GIFTING) - 30 DAYS
+                                </th>
+                                <td>&#8358;52</td>
+                                <td>&#8358;50</td>
+                                <td>&#8358;48</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">
+                                  MTN-DATA 50MB(CORPORATE GIFTING) - 30 DAYS
+                                </th>
+                                <td>&#8358;52</td>
+                                <td>&#8358;50</td>
+                                <td>&#8358;48</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">
+                                  MTN-DATA 50MB(CORPORATE GIFTING) - 30 DAYS
+                                </th>
+                                <td>&#8358;52</td>
+                                <td>&#8358;50</td>
+                                <td>&#8358;48</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">
+                                  MTN-DATA 50MB(CORPORATE GIFTING) - 30 DAYS
+                                </th>
+                                <td>&#8358;52</td>
+                                <td>&#8358;50</td>
+                                <td>&#8358;48</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">
+                                  MTN-DATA 50MB(CORPORATE GIFTING) - 30 DAYS
+                                </th>
+                                <td>&#8358;52</td>
+                                <td>&#8358;50</td>
+                                <td>&#8358;48</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">
+                                  MTN-DATA 50MB(CORPORATE GIFTING) - 30 DAYS
+                                </th>
+                                <td>&#8358;52</td>
+                                <td>&#8358;50</td>
+                                <td>&#8358;48</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">
+                                  MTN-DATA 50MB(CORPORATE GIFTING) - 30 DAYS
+                                </th>
+                                <td>&#8358;52</td>
+                                <td>&#8358;50</td>
+                                <td>&#8358;48</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">
+                                  MTN-DATA 50MB(CORPORATE GIFTING) - 30 DAYS
+                                </th>
+                                <td>&#8358;52</td>
+                                <td>&#8358;50</td>
+                                <td>&#8358;48</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">
+                                  MTN-DATA 50MB(CORPORATE GIFTING) - 30 DAYS
+                                </th>
+                                <td>&#8358;52</td>
+                                <td>&#8358;50</td>
+                                <td>&#8358;48</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">
+                                  MTN-DATA 50MB(CORPORATE GIFTING) - 30 DAYS
+                                </th>
+                                <td>&#8358;52</td>
+                                <td>&#8358;50</td>
+                                <td>&#8358;48</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">
+                                  MTN-DATA 50MB(CORPORATE GIFTING) - 30 DAYS
+                                </th>
+                                <td>&#8358;52</td>
+                                <td>&#8358;50</td>
+                                <td>&#8358;48</td>
+                              </tr>
+                            </tbody>
+                          </table>
+
+                          <div class="mt-100 text-center">
+                            <button class="btn-grey-outline">Load More</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="tab-pane"
+              id="airtime"
+              role="tabpanel"
+              aria-labelledby="airtime-tab"
+            >
+              ...........
+            </div>
+            <div
+              class="tab-pane"
+              id="cable"
+              role="tabpanel"
+              aria-labelledby="cable-tab"
+            >
+              .@#%..
+            </div>
+            <div
+              class="tab-pane"
+              id="elec"
+              role="tabpanel"
+              aria-labelledby="elec-tab"
+            >
+              ....???"".
+            </div>
+            <div
+              class="tab-pane"
+              id="exam"
+              role="tabpanel"
+              aria-labelledby="exam-tab"
+            >
+              ....???"".
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <img src="images/telnetingwhite.png" alt="logo" />
+
+            <div class="d-flex">
+              <img src="images/Instagram.png" alt="Instagram" />
+              <img src="images/Twitter.png" alt="Twitter" />
+              <img src="images/LinkedIn.png" alt="Linedin" />
+              <img src="images/Facebook.png" alt="Facebook" />
+            </div>
+          </div>
+          <div class="col-md-8 margintop">
+            <div class="row">
+              <div class="col-6 col-md-4">
+                <p class="title">Access Links</p>
+                <ul>
+                  <li>Blog</li>
+                  <li>Terms and conditions</li>
+                  <li>Privacy Policy</li>
+                  <li>About Us</li>
+                  <li>Pricing</li>
+                </ul>
+              </div>
+              <div class="col-6 col-md-8">
+                <div class="row">
+                  <div class="col-md-6">
+                    <p class="title">Contact</p>
+                    <ul>
+                      <li>Abeokuta, Ogun State, Nigeria</li>
+                      <li>+(234)805 732 8080 (Whatsapp only)</li>
+                      <li>hello@telneting.com</li>
+                    </ul>
+                  </div>
+                  <div class="col-md-6">
+                    <p class="title">Get Started</p>
+                    <ul>
+                      <li>Sign Up</li>
+                      <li>Log In</li>
+                      <li>Contact Sales</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="footnote text-center text-white">
+          <p>© 2023 Telneting developed by Veenode LLC.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/bootstrap.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      const $tabsToDropdown = $(".tabs-to-dropdown");
+
+      function generateDropdownMarkup(container) {
+        const $navWrapper = container.find(".nav-wrapper");
+        const $navPills = container.find(".nav-pills");
+        const firstTextLink = $navPills.find("li:first-child a").text();
+        const $items = $navPills.find("li");
+        const markup = `
+    <div class="dropdown d-md-none">
+      <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        ${firstTextLink}
+      </button>
+      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton"> 
+        ${generateDropdownLinksMarkup($items)}
+      </div>
+    </div>
+  `;
+        $navWrapper.prepend(markup);
+      }
+
+      function generateDropdownLinksMarkup(items) {
+        let markup = "";
+        items.each(function () {
+          const textLink = $(this).find("a").text();
+          markup += `<a class="dropdown-item" href="#">${textLink}</a>`;
+        });
+
+        return markup;
+      }
+
+      function showDropdownHandler(e) {
+        // works also
+        //const $this = $(this);
+        const $this = $(e.target);
+        const $dropdownToggle = $this.find(".dropdown-toggle");
+        const dropdownToggleText = $dropdownToggle.text().trim();
+        const $dropdownMenuLinks = $this.find(".dropdown-menu a");
+        const dNoneClass = "d-none";
+        $dropdownMenuLinks.each(function () {
+          const $this = $(this);
+          if ($this.text() == dropdownToggleText) {
+            $this.addClass(dNoneClass);
+          } else {
+            $this.removeClass(dNoneClass);
+          }
+        });
+      }
+
+      function clickHandler(e) {
+        e.preventDefault();
+        const $this = $(this);
+        const index = $this.index();
+        const text = $this.text();
+        $this.closest(".dropdown").find(".dropdown-toggle").text(`${text}`);
+        $this
+          .closest($tabsToDropdown)
+          .find(`.nav-pills li:eq(${index}) a`)
+          .tab("show");
+      }
+
+      function shownTabsHandler(e) {
+        // works also
+        //const $this = $(this);
+        const $this = $(e.target);
+        const index = $this.parent().index();
+        const $parent = $this.closest($tabsToDropdown);
+        const $targetDropdownLink = $parent.find(".dropdown-menu a").eq(index);
+        const targetDropdownLinkText = $targetDropdownLink.text();
+        $parent.find(".dropdown-toggle").text(targetDropdownLinkText);
+      }
+
+      $tabsToDropdown.each(function () {
+        const $this = $(this);
+        const $pills = $this.find('a[data-toggle="pill"]');
+
+        generateDropdownMarkup($this);
+
+        const $dropdown = $this.find(".dropdown");
+        const $dropdownLinks = $this.find(".dropdown-menu a");
+
+        $dropdown.on("show.bs.dropdown", showDropdownHandler);
+        $dropdownLinks.on("click", clickHandler);
+        $pills.on("shown.bs.tab", shownTabsHandler);
+      });
+    </script>
+  </body>
+</html>
