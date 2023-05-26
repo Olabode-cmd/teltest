@@ -308,16 +308,19 @@ img {
 @media (max-width: 576px) {
     .section-hero .carousel-item.car1 .car1img {
         background: url('../images/bg1small.png');
+        background-position: 75% center;
         background-repeat: no-repeat;
         background-size: cover;
     }
     .section-hero .carousel-item.car2 .car2img {
         background: url('../images/bg2small.png');
+        background-position: 75% center;
         background-repeat: no-repeat;
         background-size: cover;
     }
     .section-hero .carousel-item.car3 .car3img {
         background: url('../images/bg3small.png');
+        background-position: 75% center;
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -326,6 +329,7 @@ img {
         background-repeat: no-repeat;
         background-size: cover;
     }
+
 }
 
 @media (max-width: 768px) {
@@ -349,7 +353,7 @@ img {
     }
 
     .section-hero .title {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         text-align: center;
         top: 75%;
     }
@@ -364,7 +368,7 @@ img {
 
     .section-hero .title span,
     .section-hero .title-right span {
-        font-size: 1.7rem;
+        font-size: 1.4rem;
     }
 
     .section-hero .slide-item2 {
@@ -376,16 +380,29 @@ img {
         left: 50% !important;
         top: 60% !important;
         transform: translate(-50%, -50%);
+        /* width: 300px; */
     }
 
     .section-hero .title.title3 {
         left: 50%;
         top: 80%;
         transform: translate(-50%, -50%);
+        width: 300px;
     }
     .section-hero .slide-item4 {
     right: 5%;
-    width: 200px;
+    width: 170px;
+}
+.section-hero .title-right {
+    top: 70%;
+    right: 15%;
+    font-size: 1.3rem;
+    text-align: center;
+}
+.section-hero .carousel-item.car4 .car4img {
+    background: linear-gradient(to bottom, #2222220e, #0a0a0a4d), url('../images/bg4small.png');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 }
