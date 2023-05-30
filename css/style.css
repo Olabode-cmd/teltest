@@ -255,13 +255,13 @@ img {
 }
 
 .carousel-item {
-    height: 600px;
+    height: 750px;
     position: relative;
 }
 
 .carousel-item .bg-img {
     width: 100%;
-    height: 600px;
+    height: 750px;
     object-fit: cover;
 }
 
@@ -277,31 +277,35 @@ img {
 }
 .section-hero .carousel-item.car1 .car1img {
     width: 100%;
-    height: 600px;
+    height: 750px;
     background: url('../images/bg1.png');
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center center;
 }
 .section-hero .carousel-item.car3 .car3img {
     background: url('../images/bg3.png');
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center center;
     width: 100%;
-    height: 600px;
+    height: 750px;
 }
 .section-hero .carousel-item.car2 .car2img {
     width: 100%;
-    height: 600px;
+    height: 750px;
     background: url('../images/bg2.png');
+    background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .section-hero .carousel-item.car4 .car4img {
     width: 100%;
-    height: 600px;
+    height: 750px;
     background: linear-gradient(to right, #2222220e, #2222224d) , url('../images/bg4.png');
     background-size: cover;
+    background-position: center center;
     background-repeat: no-repeat;
 }
 
@@ -329,7 +333,6 @@ img {
         background-repeat: no-repeat;
         background-size: cover;
     }
-
 }
 
 @media (max-width: 768px) {
@@ -343,6 +346,13 @@ img {
 
     .carousel-item .bg-img {
         height: 600px
+    }
+
+    .section-hero .carousel-item.car1 .car1img,
+    .section-hero .carousel-item.car2 .car2img,
+    .section-hero .carousel-item.car3 .car3img,
+    .section-hero .carousel-item.car4 .car4img {
+        height: 600px;
     }
 }
 
