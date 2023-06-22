@@ -184,7 +184,7 @@ img {
 .section-hero .title {
     position: absolute;
     top: 30%;
-    left: 8%;
+    left: 12%;
     font-size: 2rem;
     color: #fff;
     font-weight: 300;
@@ -210,7 +210,7 @@ img {
     top: 75%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 200px;
+    width: 230px;
 }
 
 .section-hero .stroke1 {
@@ -278,13 +278,13 @@ img {
 .section-hero .carousel-item.car1 .car1img {
     width: 100%;
     height: 750px;
-    background: url('../images/bg1.png');
+    background: url('../images/bghero1.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
 }
 .section-hero .carousel-item.car3 .car3img {
-    background: url('../images/bg3.png');
+    background: url('../images/bghero3.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -294,7 +294,7 @@ img {
 .section-hero .carousel-item.car2 .car2img {
     width: 100%;
     height: 750px;
-    background: url('../images/bg2.png');
+    background: url('../images/bghero2.png');
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -303,7 +303,7 @@ img {
 .section-hero .carousel-item.car4 .car4img {
     width: 100%;
     height: 750px;
-    background: linear-gradient(to right, #2222220e, #2222224d) , url('../images/bg4.png');
+    background: linear-gradient(to right, #2222220e, #2222224d) , url('../images/bghero4.png');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -311,25 +311,25 @@ img {
 
 @media (max-width: 576px) {
     .section-hero .carousel-item.car1 .car1img {
-        background: url('../images/bg1small.png');
+        background: url('../images/bgsmallhero1.png');
         background-position: 75% center;
         background-repeat: no-repeat;
         background-size: cover;
     }
     .section-hero .carousel-item.car2 .car2img {
-        background: url('../images/bg2small.png');
+        background: url('../images/bgsmallhero2.png');
         background-position: 75% center;
         background-repeat: no-repeat;
         background-size: cover;
     }
     .section-hero .carousel-item.car3 .car3img {
-        background: url('../images/bg3small.png');
+        background: url('../images/bgsmallhero3.png');
         background-position: 75% center;
         background-repeat: no-repeat;
         background-size: cover;
     }
     .section-hero .carousel-item.car4 .car4img {
-        background: url('../images/bg4small.png');
+        background: url('../images/bgsmallhero4.png');
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -410,7 +410,7 @@ img {
     text-align: center;
 }
 .section-hero .carousel-item.car4 .car4img {
-    background: linear-gradient(to bottom, #2222220e, #0a0a0a4d), url('../images/bg4small.png');
+    background: linear-gradient(to bottom, #2222220e, #0a0a0a4d), url('../images/bgsmallhero4.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
